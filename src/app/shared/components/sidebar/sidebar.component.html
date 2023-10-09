@@ -5,13 +5,15 @@
     <div>
             <div class="d-flex justify-content-between m-3">
                 <h5 class="text-white">Search History</h5>
-                <p class="btn btn-danger text-white font-weight-bold">CLEAR</p>
+                <p class="btn btn-danger text-white font-weight-bold" (click)="clearHistory()">CLEAR</p>
             </div>
     </div>
     
 
     <div class="align-self-start w-100 p-3 align-self-center">
         <div class="bg-primary w-100 p-2 mb-2  bg-secondary text-white font-italic" 
-             *ngFor="let t of tags">{{ t }}</div>
+             *ngFor="let t of tags">
+             {{ t }} <span></span>
+        </div>
     </div>
 </div>

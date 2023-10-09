@@ -11,4 +11,8 @@ export class SidebarComponent {
     get tags(){
       return this.gifService.getTagsHistory;
     }
+
+    clearHistory(){
+      this.gifService.clearHistory();
+    }
 }
