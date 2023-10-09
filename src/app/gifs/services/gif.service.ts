@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core'
 export class GifService{
     constructor(){}
 
-    private _tagsHistory: string[] = [];
+    private _tagsHistory: string[] = ["aaaaaaa"];
 
     get getTagsHistory(){
         return [...this._tagsHistory];
