@@ -5,6 +5,7 @@ import { GifService } from 'src/app/gifs/services/gif.service';
   templateUrl: './sidebar.component.html',
   styleUrls: ['./sidebar.component.css']
 })
+
 export class SidebarComponent {
   constructor( public gifService: GifService){}
 
