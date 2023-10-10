@@ -10,10 +10,12 @@
     </div>
     
 
-    <div class="align-self-start w-75 align-self-center border-rounded">
-        <div class="bg-light w-100 border-bottom border-dark p-2 font-italic" 
+    <div class="align-self-start w-75 align-self-center rounded" id="search-box">
+        <div class="w-100 border-bottom border-dark p-2 font-italic " id="tag-box" 
+             (click)="onClick(t)"
              *ngFor="let t of tags">
-             {{ t }}
+             {{ t | titlecase }}
         </div>
     </div>
+
 </div>

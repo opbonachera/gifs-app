@@ -16,4 +16,8 @@ export class SidebarComponent {
     clearHistory(){
       this.gifService.clearHistory();
     }
+
+    onClick(t:string){
+      this.gifService.searchTag(t);
+    }
 }

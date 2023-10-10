@@ -1,0 +1,14 @@
+#card-list{
+    opacity: 0;
+    color: white;
+    animation: fade-in .1s ease-in forwards;
+}
+
+@keyframes fade-in {
+    50%{
+        opacity: .5;
+    }
+    100% {
+      opacity: 1;
+    }
+}
