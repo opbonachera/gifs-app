@@ -1,0 +1,8 @@
+    <div class="card bg-dark text-white mt-1">
+            <div class="card-body">
+              <lazy-image-component [url]="gif.images.downsized_medium.url">
+                  [alt]="gif.title || 'No title'"
+              </lazy-image-component>
+              <p class="card-text text-bolder m-1">{{gif.title || 'No title'}}</p>
+            </div>
+    </div>

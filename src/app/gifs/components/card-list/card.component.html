@@ -1,0 +1,9 @@
+<h5>Listado de Gifs</h5>
+<div class="row" id="card-list">
+    <gif-card class="col-lg-2 col-md-3 col-sm-6 rounded"
+              *ngFor="let gif of gifs" [gif]="gif">   
+  
+    </gif-card>
+</div>
+
+<lazy-image-component></lazy-image-component>
